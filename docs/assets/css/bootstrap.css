@@ -3381,6 +3381,39 @@ input[type="button"].btn-block {
   background-color: #e6670f \9;
 }
 
+.bkg-primary {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #f27136;
+  *background-color: #f28336;
+  background-image: -moz-linear-gradient(top, #f26436, #f28336);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f26436), to(#f28336));
+  background-image: -webkit-linear-gradient(top, #f26436, #f28336);
+  background-image: -o-linear-gradient(top, #f26436, #f28336);
+  background-image: linear-gradient(to bottom, #f26436, #f28336);
+  background-repeat: repeat-x;
+  border-color: #f28336 #f28336 #ce5d0d;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff26436', endColorstr='#fff28336', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.bkg-primary:hover,
+.bkg-primary:focus,
+.bkg-primary:active,
+.bkg-primary.active,
+.bkg-primary.disabled,
+.bkg-primary[disabled] {
+  color: #ffffff;
+  background-color: #f28336;
+  *background-color: #f0751e;
+}
+
+.bkg-primary:active,
+.bkg-primary.active {
+  background-color: #e6670f \9;
+}
+
 .btn-warning {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
